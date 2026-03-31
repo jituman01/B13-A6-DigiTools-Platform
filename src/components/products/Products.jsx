@@ -1,4 +1,3 @@
-import ImgIcon1 from '../../assets/products/camera.png'
 import { Check } from "lucide-react";
 
 const Products = ({ product, addToCart })=> {
