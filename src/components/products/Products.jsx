@@ -37,7 +37,7 @@ const Products = ({ product, addToCart })=> {
 
       <button 
         onClick={() => addToCart(product)} 
-        className=" bg-[#7C3AED] text-white py-3 rounded-2xl font-bold hover:bg-[#4e28d9] hover:cursor-pointer">
+        className=" bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-3 rounded-2xl font-bold hover:bg-[#4e28d9] hover:cursor-pointer">
         Buy Now</button>
     </div>
   );

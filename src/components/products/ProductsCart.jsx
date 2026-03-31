@@ -51,7 +51,7 @@ const productsCart = ({ cart, setCart, removeFromCart }) => {
             
             <button 
               onClick={handleCheck}
-              className="w-full bg-[#7C3AED] text-white py-4 rounded-2xl font-bold mt-6 text-lg shadow-purple-100 hover:bg-[#6D28D9] hover:cursor-pointer"
+              className="w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-4 rounded-2xl font-bold mt-6 text-lg shadow-purple-100 hover:bg-[#6D28D9] hover:cursor-pointer"
             >Proceed To Checkout
               </button>
               

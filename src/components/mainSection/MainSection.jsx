@@ -38,13 +38,13 @@ const MainSection = ({ productsPromise, cart, setCart }) => {
         <div className="bg-gray-50  rounded-full flex border border-gray-200">
           <button 
             onClick={() => setActiveTab("products")}
-            className={`hover:cursor-pointer px-10 py-4 rounded-full text-l font-bold transition-all ${activeTab === "products" ? "bg-[#7C3AED] text-white" : "text-gray-500 "}`}
+            className={`hover:cursor-pointer px-10 py-4 rounded-full text-l font-bold transition-all ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "text-gray-500 "}`}
           >
             Products
           </button>
           <button 
             onClick={() => setActiveTab("cart")}
-            className={`hover:cursor-pointer px-8 py-2 rounded-full text-sm font-bold transition-all ${activeTab === "cart" ? "bg-[#7C3AED] text-white" : "text-gray-500"}`}
+            className={`hover:cursor-pointer px-8 py-2 rounded-full text-sm font-bold transition-all ${activeTab === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "text-gray-500"}`}
           >
             Cart ({cart.length})
           </button>

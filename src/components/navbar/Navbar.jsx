@@ -1,6 +1,7 @@
 import { ShoppingCart } from 'lucide-react'
+import NavbarCart from './NavbarCart';
 
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
   return (
     <div class="navbar bg-base-100 shadow-sm">
   <div class="navbar-start">
@@ -18,7 +19,7 @@ const Navbar = () => {
             <li className='font-semibold text-4'><a>FAQ</a></li>
       </ul>
     </div>
-    <a class="text-[#7C3AED] text-2xl font-bold ml-20">DigiTools</a>
+    <a class="text-[#7C3AED]  text-2xl font-bold ml-20">DigiTools</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
@@ -37,12 +38,14 @@ const Navbar = () => {
           <div className="relative cursor-pointer">
             <ShoppingCart>
               </ShoppingCart>
+
+            <NavbarCart cartCount={cartCount}></NavbarCart>
             
           </div>
           </div>
 
           <button className='font-semibold text-4 mr-4 hover:cursor-pointer'>Login</button>
-          <button class=" text-white border-none shadow-none btn btn-primary rounded-full bg-[#7C3AED] font-semibold text-5">Get Started</button>
+          <button class=" text-white border-none shadow-none btn btn-primary rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-5">Get Started</button>
   </div>
 </div>
   );
