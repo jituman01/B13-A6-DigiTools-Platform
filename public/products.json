@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "Mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "img": "/src/assets/products/writing.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Pack",
+    "description": "2000+ premium templates for social media.",
+    "price": 49,
+    "period": "One-Time",
+    "tag": "Popular",
+    "tagType": "info",
+    "features": [
+      "2000+ assets",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "img": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Stock Assets",
+    "description": "Royalty-free photos and videos.",
+    "price": 19,
+    "period": "Mo",
+    "tag": "New",
+    "tagType": "success",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "img": "/src/assets/products/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow.",
+    "price": 79,
+    "period": "Mo",
+    "tag": "Popular",
+    "tagType": "info",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "img": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters effortlessly.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "New",
+    "tagType": "success",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "img": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Kit",
+    "description": "Complete toolkit for creating engaging social media content.",
+    "price": 39,
+    "period": "Mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "img": "/src/assets/products/social-media.png"
+  }
+]

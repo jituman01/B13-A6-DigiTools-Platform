@@ -1,7 +1,7 @@
 import React from 'react';
 import ImgIcon from '../../assets/Group5.png';
 import ImgBanner from '../../assets/banner.png';
-import { Play } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -15,7 +15,8 @@ const HeroSection = () => {
         </div>
         
           <h1 className="text-5xl md:text-6xl font-extrabold text-[#101727]">
-            Supercharge Your <br /> Digital Workflow
+          Supercharge Your <br />
+          <span className='text-[#7C3AED]'>Digital Workflow</span>
         </h1>
         
 
@@ -26,8 +27,8 @@ const HeroSection = () => {
         
 
           <div className="flex space-x-4">
-            <button className="bg-[#7C3AED] text-white px-8 py-3 rounded-full font-bold text-4">Explore Products</button>
-            <button className="border-2 border-[#7C3AED] text-[#7C3AED] px-8 py-3 rounded-full font-bold flex items-center gap-2"><span><Play></Play></span> Watch Demo
+            <button className="bg-[#7C3AED] text-white px-8 py-3 rounded-full font-bold text-4 flex gap-2 hover:cursor-pointer">Explore Products <ArrowRight></ArrowRight></button>
+            <button className="border-2 border-[#7C3AED] text-[#7C3AED] px-8 py-3 rounded-full font-bold flex items-center gap-2 hover:cursor-pointer"><span><Play></Play></span> Watch Demo
           </button>
           
           

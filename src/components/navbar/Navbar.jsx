@@ -1,5 +1,5 @@
-import React from 'react';
 import { ShoppingCart } from 'lucide-react'
+
 const Navbar = () => {
   return (
     <div class="navbar bg-base-100 shadow-sm">
@@ -31,17 +31,17 @@ const Navbar = () => {
      
     </ul>
   </div>
-
-    
         
         <div class="navbar-end mr-20">
           <div className="mr-4">
           <div className="relative cursor-pointer">
-            <ShoppingCart></ShoppingCart>
+            <ShoppingCart>
+              </ShoppingCart>
+            
           </div>
           </div>
 
-          <button className='font-semibold text-4 mr-4'>Login</button>
+          <button className='font-semibold text-4 mr-4 hover:cursor-pointer'>Login</button>
           <button class=" text-white border-none shadow-none btn btn-primary rounded-full bg-[#7C3AED] font-semibold text-5">Get Started</button>
   </div>
 </div>
