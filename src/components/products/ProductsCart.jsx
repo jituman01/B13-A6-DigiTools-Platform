@@ -13,7 +13,7 @@ const productsCart = ({ cart, setCart, removeFromCart }) => {
   };
 
   return (
-    <div className="container mx-auto px-8 py-10 ">
+    <div className="container mx-auto lg:px-8 py-10 ">
       <div className="bg-white rounded-3xl border border-gray-100 p-8 shadow-sm">
         <h3 className="text-2xl font-bold mb-8">Your Cart</h3>
         
@@ -24,19 +24,20 @@ const productsCart = ({ cart, setCart, removeFromCart }) => {
         ) : (
           <div className="space-y-4">
             {cart.map((item) => (
-              <div key={item.id} className="flex items-center justify-between p-6 bg-gray-50 rounded-2xl border border-transparent hover:border-purple-100 transition-all">
+              <div key={item.id} className="flex items-center justify-between md:p-10 lg:p-6 lg:bg-gray-50 md:bg-gray-50 rounded-2xl border border-transparent transition-all">
                 <div className="flex items-center gap-6">
-                  <div className=" bg-purple-50 rounded-2xl flex items-center justify-center text-3xl mb-6">
+                  <div className=" bg-purple-50 rounded-2xl flex items-center justify-center text-3xl mb-6 ">
                  <img src={item.img} alt="" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg">{item.name}</h4>
+                    <h4 className="font-bold lg:text-lg md:text-lg text-[12px]">{item.name}</h4>
                     <p className="text-gray-400 font-medium">${item.price}</p>
                   </div>
                 </div>
                 <button 
                   onClick={() => removeFromCart(item.id)}
-                  className="btn text-red-400 bg-red-100 hover:text-red-600 font-medium text-sm hover:cursor-pointer"
+                  className="btn text-red-400 bg-red-100 hover:text-red-600 font-medium lg:text-sm md:text-sm
+                  text-[10px] hover:cursor-pointer ml-5"
                 >
                    Remove
                 </button>
