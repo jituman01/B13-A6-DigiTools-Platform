@@ -11,7 +11,9 @@ const Navbar = ({cartCount}) => {
       </div>
       <ul
         tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow  ">
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow  ">
+            <li><button className='font-bold text-[17px] hover:cursor-pointer '>Login</button></li>
+            
             <li className='font-semibold text-4'><a>Products</a></li>
             <li className='font-semibold text-4'><a>Features</a></li>
             <li className='font-semibold text-4'><a>Pricing</a></li>
@@ -44,7 +46,7 @@ const Navbar = ({cartCount}) => {
           </div>
           </div>
 
-        <button className='font-semibold text-4 mr-4 hover:cursor-pointer hidden lg:flex'>Login</button>
+        <button className='font-semibold text-[17px] mr-4 hover:cursor-pointer hidden lg:flex md:flex text-purple-800'>Login</button>
         
           <button class=" text-white border-none shadow-none btn btn-primary rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-5">Get Started</button>
   </div>

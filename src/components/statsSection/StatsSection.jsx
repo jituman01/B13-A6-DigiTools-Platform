@@ -2,7 +2,7 @@ import React from 'react';
 
 const StatsSection = () => {
   return (
-    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-10 my-10">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-10 lg:my-10">
 
       <div className="container mx-auto px-8 grid grid-cols-3 gap-8 text-center text-white">
 

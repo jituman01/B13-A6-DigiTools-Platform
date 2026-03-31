@@ -5,9 +5,9 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <div className="container mx-auto px-8 py-16 flex flex-col md:flex-row items-center">
+    <div className="container mx-auto px-8 py-16 flex flex-col lg:flex-row items-center justify-between lg:gap-12">
 
-      <div className="md:w-1/2 space-y-6 ml-16">
+      <div className="md:w-1/2 space-y-6 lg:ml-16">
         
         <div className="flex bg-purple-100 text-[#7C3AED] text-xs font-bold pl-3 py-3 rounded-full max-w-60 ">
           <div className='mr-2'><img src={ImgIcon} alt="" /></div>
@@ -26,7 +26,7 @@ const HeroSection = () => {
         </p>
         
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 ">
             <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-8 py-3 rounded-full font-bold text-4 flex gap-2 hover:cursor-pointer">Explore Products <ArrowRight></ArrowRight></button>
             <button className="border-2 border-[#7C3AED] text-[#7C3AED] px-8 py-3 rounded-full font-bold flex items-center gap-2 hover:cursor-pointer"><span><Play></Play></span> Watch Demo
           </button>
@@ -34,7 +34,7 @@ const HeroSection = () => {
           
           </div>
         </div>
-      <div className="md:w-1/2 mt-12 flex justify-end mr-16">
+      <div className="md:w-1/2 mt-12 flex justify-end lg:mr-16">
         
           <img src={ImgBanner} alt="" className=" w-full max-w-[500px]" />
         </div>

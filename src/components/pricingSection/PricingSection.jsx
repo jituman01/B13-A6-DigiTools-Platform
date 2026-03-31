@@ -5,12 +5,12 @@ const PricingSection = () => {
   return (
     <div className='container mx-auto max-w-9/12 mb-30'>
       <div className='text-center space-y-3'>
-        <h2 className='text-4xl font-bold text-gray-900 mt-20'>Simple, Transparent Pricing</h2>
+        <h2 className='text-4xl font-bold text-gray-900 lg:mt-20 mt-10'>Simple, Transparent Pricing</h2>
         <p className='text-gray-500'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
 
 
-      <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-5 gap-2 '>
 
         {/* card 01 */}
         <div className="border border-gray-300 rounded-xl p-8 relative flex flex-col bg-[#F9FAFC] hover:shadow-2xl max-w-95 max-h-112 mt-10">
@@ -55,7 +55,7 @@ const PricingSection = () => {
         <div className="border border-gray-300 rounded-xl p-8 relative flex flex-col bg-[#F9FAFC] hover:shadow-2xl max-w-95 max-h-112 mt-10 bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
           
           {/* badge */}
-          <div className='w-28 h-8 absolute -top-5 lg:left-27 md:left-22 left-30'>
+          <div className='w-28 h-8 absolute -top-5 lg:left-32 md:left-27 left-24'>
             <h3 className='font-medium bg-[#FEF3C6] text-[#BB4D00] rounded-full text-center py-1.5'>Most Popular</h3>
           </div>
                 
