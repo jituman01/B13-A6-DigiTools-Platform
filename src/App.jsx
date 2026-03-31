@@ -9,6 +9,7 @@ import { useState, Suspense } from 'react';
 import StepSection from './components/stepsSection/StepSection';
 import PricingSection from './components/pricingSection/PricingSection';
 import ExploreSection from './components/exploreSection/ExploreSection';
+import Footer from './components/footer/footer';
 
 
 const fetchProducts = async () => {
@@ -45,6 +46,7 @@ function App() {
       <StepSection></StepSection>
       <PricingSection></PricingSection>
       <ExploreSection></ExploreSection>
+      <Footer></Footer>
 
 
     </>
