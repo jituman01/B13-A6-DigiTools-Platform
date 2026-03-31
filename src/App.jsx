@@ -41,7 +41,7 @@ function App() {
         />
       </Suspense>
 
-      <ToastContainer position="top-right" autoClose={1500} />
+      <ToastContainer position="top-right"style={{ marginTop: "75px" }} autoClose={1500} />
 
       <StepSection></StepSection>
       <PricingSection></PricingSection>
