@@ -12,7 +12,7 @@ const StepSection = () => {
         <p className='text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
       </div>
 
-      <div className='container mx-auto px-8 grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-5 max-w-9/12'>
+      <div className='container mx-auto px-8 grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-5 max-w-9/12 mb-15'>
         
         <div className="max-w-90 relative bg-white px-7 py-15 rounded-xl border border-gray-200 flex flex-col items-center text-center">
 
