@@ -6,6 +6,7 @@ import StatsSection from './components/statsSection/StatsSection'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState, Suspense } from 'react';
+import StepSection from './components/stepsSection/StepSection';
 
 
 const fetchProducts = async () => {
@@ -38,7 +39,11 @@ function App() {
       </Suspense>
 
       <ToastContainer position="top-right" autoClose={1500} />
+
+      <StepSection></StepSection>
     </>
+
+
   );
 }
 

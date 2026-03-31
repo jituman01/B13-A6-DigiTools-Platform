@@ -3,7 +3,7 @@ import NavbarCart from './NavbarCart';
 
 const Navbar = ({cartCount}) => {
   return (
-    <div class="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+    <div class="navbar bg-base-100 shadow-sm sticky top-0 z-50 ">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = ({cartCount}) => {
             <li className='font-semibold text-4'><a>FAQ</a></li>
       </ul>
     </div>
-    <a class="text-[#7C3AED]  text-2xl font-bold ml-20">DigiTools</a>
+    <a class="text-[#7C3AED]  text-2xl font-bold lg:ml-20">DigiTools</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
@@ -33,9 +33,9 @@ const Navbar = ({cartCount}) => {
     </ul>
   </div>
         
-        <div class="navbar-end mr-20">
+        <div class="navbar-end lg:mr-20 ">
           <div className="mr-4">
-          <div className="relative cursor-pointer">
+          <div className="relative cursor-pointer ">
             <ShoppingCart>
               </ShoppingCart>
 
@@ -44,7 +44,8 @@ const Navbar = ({cartCount}) => {
           </div>
           </div>
 
-          <button className='font-semibold text-4 mr-4 hover:cursor-pointer'>Login</button>
+        <button className='font-semibold text-4 mr-4 hover:cursor-pointer hidden lg:flex'>Login</button>
+        
           <button class=" text-white border-none shadow-none btn btn-primary rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-semibold text-5">Get Started</button>
   </div>
 </div>
