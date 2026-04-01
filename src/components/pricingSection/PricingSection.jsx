@@ -59,8 +59,8 @@ const PricingSection = () => {
             <h3 className='font-medium bg-[#FEF3C6] text-[#BB4D00] rounded-full text-center py-1.5'>Most Popular</h3>
           </div>
                 
-            <h3 className="text-2xl font-bold mb-2 text-white">Starter</h3>
-            <p className="text-gray-300 text-sm mb-6 line-clamp-2">Perfect for getting started</p>
+            <h3 className="text-2xl font-bold mb-2 text-white">Pro</h3>
+            <p className="text-gray-300 text-sm mb-6 line-clamp-2">Best for professionals</p>
             <div className="mb-6">
               <h2 className="text-3xl font-bold text-white">$29</h2>
               <h2 className="text-gray-300 font-semibold text-sm ">/month</h2>
@@ -101,8 +101,8 @@ const PricingSection = () => {
         {/* card 03 */}
       <div className="border border-gray-300 rounded-xl p-8 relative flex flex-col bg-[#F9FAFC] hover:shadow-2xl max-w-95 max-h-112 mt-10">
                 
-            <h3 className="text-2xl font-bold mb-2">Starter</h3>
-            <p className="text-gray-400 text-sm mb-6 line-clamp-2">Perfect for getting started</p>
+            <h3 className="text-2xl font-bold mb-2">Pro</h3>
+            <p className="text-gray-400 text-sm mb-6 line-clamp-2">Best for professionals</p>
             <div className="mb-6">
               <h2 className="text-3xl font-black">$99</h2>
               <h2 className="text-gray-500 font-semibold text-sm ">/month</h2>
@@ -138,7 +138,7 @@ const PricingSection = () => {
       
             <button 
               className=" bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white py-3 rounded-2xl font-bold hover:bg-[#4e28d9] hover:cursor-pointer">
-              Get Started Free</button>
+              Contact Sales</button>
       </div>
       </div>
       
